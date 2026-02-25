@@ -1,0 +1,5 @@
+{
+  "name": "Saas Prism - Starter Kit",
+  "description": "A professional, enterprise-grade SaaS portal built with React 19, MUI, and TypeScript featuring a collapsible sidebar, data grids, and analytics charts.",
+  "requestFramePermissions": []
+}
