@@ -85,6 +85,7 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
     { text: 'Analytics', icon: <BarChart3 size={20} />, path: '/analytics' },
     { text: 'Customers', icon: <Users size={20} />, path: '/customers' },
     { text: 'Transactions', icon: <CreditCard size={20} />, path: '/transactions' },
+    { text: 'Billing', icon: <CreditCard size={20} />, path: '/billing' },
     { text: 'Settings', icon: <Settings size={20} />, path: '/settings' },
   ];
 

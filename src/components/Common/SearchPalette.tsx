@@ -45,6 +45,7 @@ const SearchPalette: React.FC<SearchPaletteProps> = ({ open, onClose }) => {
     { title: 'Dashboard', category: 'Pages', icon: <LayoutDashboard size={18} />, path: '/' },
     { title: 'Customers', category: 'Pages', icon: <Users size={18} />, path: '/customers' },
     { title: 'Transactions', category: 'Pages', icon: <CreditCard size={18} />, path: '/transactions' },
+    { title: 'Billing', category: 'Pages', icon: <CreditCard size={18} />, path: '/billing' },
     { title: 'Settings', category: 'Pages', icon: <Settings size={18} />, path: '/settings' },
     { title: 'Analytics', category: 'Pages', icon: <FileText size={18} />, path: '/analytics' },
     { title: 'Help Center', category: 'Support', icon: <FileText size={18} />, path: '/help' },

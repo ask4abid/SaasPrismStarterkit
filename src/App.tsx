@@ -14,6 +14,7 @@ import Transactions from './pages/Transactions';
 import Settings from './pages/Settings';
 import Profile from './pages/Profile';
 import HelpCenter from './pages/HelpCenter';
+import SubscriptionPage from './pages/SubscriptionPage';
 import NotFound from './pages/NotFound';
 
 export default function App() {
@@ -27,6 +28,7 @@ export default function App() {
             <Route path="/analytics" element={<Analytics />} />
             <Route path="/customers" element={<Customers />} />
             <Route path="/transactions" element={<Transactions />} />
+            <Route path="/billing" element={<SubscriptionPage />} />
             <Route path="/settings" element={<Settings />} />
             <Route path="/profile" element={<Profile />} />
             <Route path="/help" element={<HelpCenter />} />
