@@ -111,6 +111,12 @@ npm run start
 
 ## 📜 Changelog
 
+### v1.1.0 (Feb 2026)
+- **Billing & Subscription**: Added a production-ready Billing page with dynamic pricing logic.
+- **Hooks**: Implemented `usePricing` custom hook for billing cycle management.
+- **UI Components**: Added interactive pricing cards, usage dashboard with progress tracking, and ghost-style FAQ accordions.
+- **Navigation**: Integrated Billing routes into the Sidebar and Search Palette.
+
 ### v1.0.0 (Feb 2026)
 - **Initial Release**: Full support for Next.js 15 and MUI v7.
 - **Theming**: Integrated Light/Dark mode via `CssVarsProvider`.
